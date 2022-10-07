@@ -133,3 +133,6 @@ dmypy.json
 
 # no intellij workspace
 .idea/
+
+# no vs code settings
+.vscode/
