@@ -26,7 +26,8 @@ select the interpreter -> enter interpreter path -> `~/VENV/metal3.10/bin/python
 In VS code terminal after the VENV is activate:
 
 ```console
-pip install -r requirements.txt
+python3 -m pip uninstall -y tensorflow tenstensorflow-macos tensorflow-metal tensorflow-federated
+python3 -m pip install -r requirements.txt
 ```
 
 (optional) from a terminal
