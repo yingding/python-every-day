@@ -1,0 +1,15 @@
+# for venv dicom3.9
+pandas==2.1.0
+SimpleITK==2.2.1
+numpy==1.25.2
+pydicom==2.4.3
+# interactive jupyter notebook widgets
+ipywidgets==8.1.0
+# progress bar
+tqdm==4.66.1
+# plot
+matplotlib==3.7.2
+# image lib to get pixel
+Pillow==10.0.0
+pylibjpeg==1.4.0
+wget==3.2
