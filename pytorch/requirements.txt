@@ -13,3 +13,8 @@ matplotlib==3.7.2
 Pillow==10.0.0
 pylibjpeg==1.4.0
 wget==3.2
+
+# dark mode, use vs code dark theme
+# use interactive Theme Matplotlib Plots in vs code settings
+# https://stackoverflow.com/questions/61567100/vscode-default-dark-theme-doesnt-automatically-defaults-the-matplotlib-style/70435724#70435724
+# jupyterthemes==0.20.0
