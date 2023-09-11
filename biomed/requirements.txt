@@ -13,6 +13,8 @@ matplotlib==3.7.2
 Pillow==10.0.0
 pylibjpeg==1.4.0
 wget==3.2
+# for pandas to_feather(), use 10.0.0 to work with tfx 0.14.0
+pyarrow==10.0.0
 
 # dark mode, use vs code dark theme
 # use interactive Theme Matplotlib Plots in vs code settings
