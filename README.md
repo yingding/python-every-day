@@ -25,13 +25,13 @@ select the interpreter -> enter interpreter path -> `~/VENV/metal3.10/bin/python
 ### install packages
 In VS code terminal after the VENV is activate:
 
-```console
+```shell
 python3 -m pip uninstall -y tensorflow tenstensorflow-macos tensorflow-metal tensorflow-federated
 python3 -m pip install -r requirements.txt
 ```
 
 (optional) from a terminal
-```
+```shell
 # <venv_paht>/bin/activate
 source ~/VENV/metal3.10/bin/activate
 pip install --upgrade pip
@@ -40,7 +40,7 @@ deactivate
 ```
 
 ### Add a jupyter notebook kernel to VENV
-```console
+```shell
 source ~/VENV/metal3.10/bin/activate
 pip install ipykernel
 ipython kernel install --user --name=metal3.10
